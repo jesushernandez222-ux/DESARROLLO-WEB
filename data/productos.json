@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop Gamer",
+    "precio": 4500000,
+    "descripcion": "Alto rendimiento",
+    "imagen": "laptop.jpg"
+  }
+]

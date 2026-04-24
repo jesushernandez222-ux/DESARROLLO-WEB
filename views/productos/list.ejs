@@ -1,0 +1,13 @@
+<h1>Lista de Productos</h1>
+<a href="/productos/crear">Crear Producto</a>
+<ul>
+<% productos.forEach(p => { %>
+  <li>
+    <%= p.nombre %> - $<%= p.precio %>
+    <a href="/productos/editar/<%= p.id %>">Editar</a>
+    <form action="/productos/eliminar/<%= p.id %>" method="POST" style="display:inline;">
+      <button type="submit">Eliminar</button>
+    </form>
+  </li>
+<% }) %>
+</ul>

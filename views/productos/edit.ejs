@@ -1,0 +1,7 @@
+<h1>Editar Producto</h1>
+<form action="/productos/editar/<%= producto.id %>" method="POST">
+  <input name="nombre" value="<%= producto.nombre %>">
+  <input name="precio" value="<%= producto.precio %>">
+  <input name="descripcion" value="<%= producto.descripcion %>">
+  <button type="submit">Actualizar</button>
+</form>
